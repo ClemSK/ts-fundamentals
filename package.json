@@ -1,0 +1,23 @@
+{
+  "name": "ts-fundamentals",
+  "version": "1.0.0",
+  "description": "ts-fundamentals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClemSK/ts-fundamentals.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClemSK/ts-fundamentals/issues"
+  },
+  "homepage": "https://github.com/ClemSK/ts-fundamentals#readme",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
