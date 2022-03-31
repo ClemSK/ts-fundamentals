@@ -1,6 +1,11 @@
 // interfaces + classes = how we get really strong code reuse
+// ! using interfaces for gatekeeping
 
 // interfaces: creates a new type, describing the property names and values of a object
+
+// General strategy for reusable code in TS:
+// 1. Create a function that accepts arguments that are typed with interfaces
+// 2. Objects / classes can decide to 'implement' a given interface to work with a function.
 
 // long type annotations
 
@@ -28,7 +33,8 @@ const oldCivic = {
     return `Name: ${this.name}`;
   },
 };
-
+// ! we can make 2 different objects that both take the summary function and both qualify as the same type
+// ! this means that we can have reusable code
 const myDrink = {
   color: 'brown',
   carbonated: true,

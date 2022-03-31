@@ -13,6 +13,7 @@ const profile = {
 // need to write out the expected property of profile
 const { age }: { age: number } = profile;
 
+// you need to type the variables when destructuring
 const {
   coords: { lat, lng },
 }: { coords: { lat: number; lng: number } } = profile;
